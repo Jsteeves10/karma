@@ -58,8 +58,11 @@ div {
 /* Navigation Section */
 #top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
-#top-navigation .content {
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -70,7 +73,7 @@ div {
 	height: 70px;
 }
 
-#top-navigation .links {
+.links {
 	margin-top: 1.7rem;
 	float: right;
 	font-family: 'Roboto', sans-serif;
@@ -80,23 +83,23 @@ div {
 	-webkit-font-smoothing: antialiased;
 }
 
-#top-navigation .links li {
+.links li {
 	display: inline-block;
 	margin-left: 1.5rem;
 }
 
-#top-navigation .links .active {
+.links .active {
     color: #4c5058;
     font-weight: 600;
 }
 
-#top-navigation .links li:hover {
+.links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
 /*Introduction Section*/
-.introduction {
+#introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
     background-repeat: no-repeat;
@@ -108,7 +111,7 @@ div {
 	text-align: center;
 	margin-top: 1em;
 }
-.introduction .big-buttons button{
+#introduction .big-buttons button{
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -119,22 +122,49 @@ div {
     font-size: 1.125rem;
 }
 
-.introduction h1 {
+#introduction h1 {
 	margin-top: 14.5rem;
 	font-size: 3.125rem;
 }
 
-.introduction h3 {
+#introduction h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 }
 
-.introduction h1, .introduction h3 {
+#introduction h1, #introduction h3 {
 	color: white;
 	text-align: center;
 	font-weight: 300;
 }
 
-.introduction .big-buttons button:hover {
+#introduction .big-buttons button:hover {
 	background-color: red;
+}
+
+#cases {
+	background-color: white;
+	padding-bottom: 5rem;
+	overflow: hidden;
+}
+
+#cases .content {
+	margin-top: 7.875rem;
+	text-align: center;
+}
+
+#cases h2 {
+	font-size: 2.5rem;
+	margin:1.625rem 0rem 3.125rem;
+}
+
+#cases .devices li {
+	width: 33.33333%;
+	float: left;
+}
+
+#cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0px 1.875rem;
 }
