@@ -51,22 +51,22 @@ table {
 body {
     background-color: LightGray;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 /* Navigation Section */
 #top-navigation {
-    background-color: #fff;
-    position: fixed;
+  background-color: #fff;
+  position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
 .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-    padding: 0px 15px;
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .logo {
@@ -89,22 +89,22 @@ div {
 }
 
 .links .active {
-    color: #4c5058;
-    font-weight: 600;
+  color: #4c5058;
+  font-weight: 600;
 }
 
 .links li:hover {
-    cursor: pointer;
-    color: #333333;
+  cursor: pointer;
+  color: #333;
 }
 
 /*Introduction Section*/
 #introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45.938rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
 }
 
 .big-buttons {
@@ -112,14 +112,14 @@ div {
 	margin-top: 1em;
 }
 #introduction .big-buttons button{
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
-    line-height: 1.33;
-    color: white;
-    background-color: #f15a29;
-    font-size: 1.125rem;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  line-height: 1.33rem;
+  color: white;
+  background-color: #f15a29;
+  font-size: 1.125rem;
 }
 
 #introduction h1 {
